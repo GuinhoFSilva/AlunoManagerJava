@@ -23,8 +23,6 @@ public class Sistema {
         for(Aluno aluno : alunos){
             if(aluno.getTurma().equals(turma)){
                 System.out.println(aluno.getNomeCompleto());
-            } else if(aluno.getTurma().isEmpty()){
-                System.out.println("Não há nenhuma turma cadastrada!");
             }
         }
     }
